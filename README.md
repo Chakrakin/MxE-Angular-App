@@ -61,7 +61,7 @@ ng serve --port 4202 --publicHost http://localhost:4202 --disable-host-check
 # Fourth terminal tab
 cd navbar
 npm install
-ng serve --port 4203 --publicHost http://localhost:4203 --disable-host-check
+    ng serve --port 4203 --publicHost http://localhost:4203 --disable-host-check
 ```
 
 Now go to http://localhost:4200 in a browser. Note that you can change any of the ports for the projects by modifying the Import Map inside of

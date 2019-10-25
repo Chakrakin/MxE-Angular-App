@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { EmptyRouteComponent } from './empty-route.component';
+import { DeviceComponent } from './device.component';
 
-describe('EmptyRouteComponent', () => {
-  let component: EmptyRouteComponent;
-  let fixture: ComponentFixture<EmptyRouteComponent>;
+describe('DeviceComponent', () => {
+  let component: DeviceComponent;
+  let fixture: ComponentFixture<DeviceComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ EmptyRouteComponent ]
+      declarations: [ DeviceComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(EmptyRouteComponent);
+    fixture = TestBed.createComponent(DeviceComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

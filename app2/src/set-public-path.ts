@@ -1,2 +1,2 @@
 // @ts-ignore
-__webpack_public_path__ = 'http://localhost:4201/'
+__webpack_public_path__ = 'http://localhost:4202/'
