@@ -11,9 +11,4 @@ export class AppComponent {
     title = 'app1';
     // @ts-ignore
     assetsBase = __webpack_public_path__;
-
-    constructor(public router: Router, public cd: ChangeDetectorRef, public ngZone: NgZone) {
-        this.router.events.pipe(filter(e => e instanceof NavigationEnd))
-            .subscribe((e: NavigationEnd) => this.ngZone.run(() => this.cd.detectChanges()));
-    }
 }
